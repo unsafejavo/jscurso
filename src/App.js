@@ -8,7 +8,7 @@ function App() {
   const [employees, setEmployees] = useState([
     {
       name: "Tetra",
-      role: "Developer",
+      role: "Developer AOKKKKKKKKKKKKKKKKKK FACHERO",
       img: "https://etenonfitness.com/wp-content/uploads/2023/12/paco-bautista-1656919697.jpeg",
     },
     {
