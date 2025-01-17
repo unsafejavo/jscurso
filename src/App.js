@@ -61,7 +61,6 @@ function App() {
           <input
             type="text"
             onChange={(e) => {
-              console.log(e.target.value);
               setRole(e.target.value);
             }}
           />

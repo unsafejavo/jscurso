@@ -27,8 +27,6 @@ function EditEmployee(props) {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              console.log("Hello from edit Employee");
-              console.log(props.id, name, role);
               props.updateEmployee(props.id, name, role);
             }}
             id="editmodal"
