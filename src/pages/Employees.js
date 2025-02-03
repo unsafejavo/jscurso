@@ -4,14 +4,13 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import AddEmployee from "../Components/AddEmployee";
 import EditEmployee from "../Components/EditEmployees";
-import Header from "../Components/Header";
 
 function Employees() {
   const [employees, setEmployees] = useState([
     {
       id: 1,
       name: "Tetra",
-      role: "Developer",
+      role: "ayudaaaaaaaaa",
       img: "https://etenonfitness.com/wp-content/uploads/2023/12/paco-bautista-1656919697.jpeg",
     },
     {
