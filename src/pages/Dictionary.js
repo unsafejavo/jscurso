@@ -1,25 +1,9 @@
-import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-export default function Dictionary() {
-  const [word, setWord] = useState("");
-  const navigate = useNavigate();
+import DefinitionSearch from "../Components/DefinitionSearch";
 
+export default function Dictionary() {
   return (
-    <>
-      <input
-        type="text"
-        onChange={(e) => {
-          setWord(e.target.value);
-        }}
-      />
-      <button
-        className="text-white"
-        onClick={() => {
-          navigate("/definition/" + word, { replace: true });
-        }}
-      >
-        Search
-      </button>
-    </>
+    <div className="flex justify-center">
+      <DefinitionSearch />
+    </div>
   );
 }

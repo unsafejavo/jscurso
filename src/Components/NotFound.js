@@ -1,3 +1,3 @@
 export default function notFound() {
-  return <p>The page you are looking for was not found</p>;
+  return <p className="text-white">The page you are looking for was not found</p>;
 }
